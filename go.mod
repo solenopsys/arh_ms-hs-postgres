@@ -2,11 +2,10 @@ module solenopsys.org/zmq_postgress
 
 go 1.17
 
-replace solenopsys.org/zmq_connector v0.0.0 => ./zmq_connector
+require github.com/solenopsys/sc-bl-zmq-connector v1.0.2
 
 require (
 	github.com/lib/pq v1.10.4
-	solenopsys.org/zmq_connector v0.0.0
 )
 
 require (

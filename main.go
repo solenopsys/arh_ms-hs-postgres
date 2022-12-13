@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 	_ "github.com/lib/pq"
+	zmq_connector "github.com/solenopsys/sc-bl-zmq-connector"
 	"os"
-	"solenopsys.org/zmq_connector"
 	"strconv"
 )
 
