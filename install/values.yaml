@@ -9,6 +9,6 @@ service:
 containers:
   hs_adapter:
     name: hs-postgres
-    image: registry.alexstorm.solenopsys.org/alexstorm-hsm-postgres
+    image: registry.solenopsys.org/alexstorm-hsm-postgres
     pullPolicy: Always
 
