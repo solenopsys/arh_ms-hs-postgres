@@ -1,5 +1,4 @@
-# Build
-bash build.sh
+# ms-hs-postgres module
  
 
 # Env Vars
